@@ -46,7 +46,7 @@ public class unit_test extends ActivityInstrumentationTestCase2<MainActivity>{
         double b = Double.parseDouble(editText2.getText().toString());
 
         assertEquals(Double.parseDouble(textView.getText().toString()),a+b);
-        assertEquals(0,1);
+
 
 
     }
