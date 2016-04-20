@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 intD = Double.parseDouble(intA.getText().toString());
                 intE = Double.parseDouble(intB.getText().toString());
-                intF = intD-intE;
+                intF = intD+intE;
                 intC.setText(Double.toString(intF));
 
             }
